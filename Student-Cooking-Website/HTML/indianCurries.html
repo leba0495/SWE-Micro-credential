@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>🥘 Indian Curries</title>
+        <meta charset="utf-8">
+		<meta name="description" content="This website contains a brief guide on different cuisines so students have
+		an idea of the ingredients needed to make food taste similar to a certain cuisine.">
+        <link rel="icon" href="../images/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="../CSS/formatted-styles.css">
+        <script>
+            //showLarge is called onmouseout
+            function showCurry1() 
+            {document.getElementById("curry1").style.display="block";
+             document.getElementById("curry2").style.display="none";
+            document.getElementById("curry3").style.display="none"}
+                
+            function showCurry2() 
+            {document.getElementById("curry1").style.display="none";
+             document.getElementById("curry2").style.display="block";
+            document.getElementById("curry3").style.display="none"}
+                
+            function showCurry3() 
+            {document.getElementById("curry1").style.display="none";
+             document.getElementById("curry2").style.display="none";
+            document.getElementById("curry3").style.display="block"}
+        </script>
+    </head>
+    <body>
+    <!-- Page Header -->
+    <header>
+        <h1>Cooking for Students</h1>
+        <img class="image-banner" src="../images/cookingBanner.jpg">
+    </header>
+    <!-- Navigation Bar -->
+    <nav >
+        <ul>
+            <li class="list-lines"><a href="home.html">Home</a></li>
+            <li class="list-lines"><a href="chinese.html">Chinese</a></li>
+            <li class="list-lines"><a href="italian.html">Italian</a></li>
+            <li class="list-lines"><a href="indian.html">Indian</a></li>
+            <li class="list-lines"><a href="thai.html">Thai</a></li>
+            <li class="list-lines"><a href="survey.html">Survey</a></li>
+        </ul>
+    </nav>
+    <!-- The main content of the page -->
+    <main>
+            <h2>Three Indian Curry Recipes</h2>
+            <p>Please select one of the curries below.</p>
+            <img class="curry-button" src="../Images/chickenButton.png" onclick="showCurry1()">
+            <img class="curry-button" src="../Images/vegButton.png" onclick="showCurry2()">
+            <img class="curry-button" src="../Images/lambButton.png" onclick="showCurry3()">
+
+        <div>
+            <section id="curry1">
+                <img class="indian-curry" src="../Images/chickenCurry.jpg">
+                <h2>Simple Chicken Curry</h2>
+                <h3>Ingredients</h3>
+                <ul>
+                    <li>spring onions x 6</li>
+                    <li>garlic cloves x 3</li>
+                    <li>200g chopped tomatoes</li>
+                    <li>2tbsp veg oil</li>
+                    <li>2tbsp curry powder</li>
+                    <li>1tsp ground ginger</li>
+                    <li>400g boneless skinless chicken thigh cubed</li>
+                    <li>100ml Greek yoghurt</li>
+                    <li>salt and pepper</li>
+                </ul>
+                <h3>Recipe</h3>
+                <li>Thinly slice most of the spring onions. Peel and chop the garlic.</li>
+                <li>Heat the oil in a large saucepan over a medium heat.  Cook the spring onions and garlic for a few minutes.</li>
+                <li>Add the tomatoes, curry powder and ground ginger and cook for 3-4 minutes. Add a splash of water if required.</li>
+                <li>Add the chicken and cook until it is browned on all sides.</li>
+                <li>Add 250ml water, bring to the boil and then reduce to a medium to low heat.  Cook for about 15 minutes until the chicken is cooked through.</li>
+                <li>In a separate pan add the rice and then plenty of boiling water.  Bring to the boil and then simmer for 10 minutes.  Drain the rice and rinse with more boiling water.</li>
+                <li>Take the curry off the heat, stir in the yoghurt then season with salt and pepper. </li>
+                <li>Serve the curry with the rice and a bit more Greek yoghurt.</li>
+            </section>
+
+            <section id="curry2">
+                <img class="indian-curry" src="../Images/vegCurry.jpg">
+                <h2>Vegetable Curry</h2>
+                <h3>Ingredients</h3>
+                <ul>
+                    <li>half a medium-sized aubergine (chopped)</li>
+                    <li>small carrots (chopped) x 2</li>
+                    <li>100g green beans (chopped in half)</li>
+                    <li>One medium-sized potato (chopped)</li>
+                    <li>100g frozen peas</li>
+                    <li>50g desiccated coconut, soaked in a little hot water for a few minutes minutes</li>
+                    <li>green chillies (chopped) x 4</li>
+                    <li>1tsp salt</li>
+                    <li>medium tomatoes (roughly chopped) x 3</li>
+                    <li>1tbsp plain yoghurt</li>
+                    <li>1tsp garam masala</li>
+                    <li>2tbsp chopped fresh coriander</li>
+                </ul>
+                <h3>Recipe</h3>
+                <li>Place the aubergine, carrots, green beans and potato in a medium-sized pan and add 250ml water.</li>
+                <li>Bring to the boil, add the peas, cover and turn the heat to medium.  Cook until the vegetables are just tender (about 4 mins).</li>
+                <li>While the veg are cooking, put the coconut, chillies and salt into a food processor. Add 150ml water and blend to form a paste.</li>
+                <li>When the vegetables are just cooked, add the chilli paste.  Stir in and simmer gently for around five minutes.</li>
+                <li>Add the tomatoes, yoghurt and garam masala. Gently mix and bring to the boil.  One boiling reduce the heat and simmer gently until the potatoes are cooked through (about 3 mins).</li>
+                <li>In a separate pan add the rice and then plenty of boiling water.  Bring to the boil and then simmer for 10 minutes.  Drain the rice and rinse with more boiling water.</li>
+                <li>Place the vegetable curry into a serving dish and top with the fresh coriander.</li>
+                <li>Serve with the plain rice.</p>
+            </section>
+
+            <section id="curry3">
+                <img class="indian-curry" src="../Images/lambCurry.jpg">
+                <h2>Lamb Curry</h2>
+                <h3>Ingredients</h3>
+                <ul>
+                    <li>1tsp cumin seeds</li>
+                    <li>1tsp coriander seeds</li>
+                    <li>Cinnamon stick</li>
+                    <li>1kg leg of lamb cubed</li>
+                    <li>onions (finely sliced) x 2</li>
+                    <li>garlic cloves (crushed) x 2</li>
+                    <li>2.5cm piece fresh root ginger (finely grated)</li>
+                    <li>long red chillies (sliced) x 2</li>
+                    <li>3tbsp tamarind paste</li>
+                    <li>1tsp mango powder</li>
+                    <li>500ml beef stock</li>
+                    <li>90g desiccated coconut</li>
+                    <li>400ml can coconut milk</li>
+                    <li>2tbsp fresh coriander leaves</li>
+                </ul>
+                <h3>Recipe</h3>
+                <li>Heat a frying pan until hot, add the cumin and coriander seeds and cinnamon and toast for a few seconds. Place the spices into a pestle and mortar or spice grinder and grind to a powder.</li>
+                <li>Heat a large saucepan pan until hot, add vegetable oil and the lamb.  Cook until golden-brown all over. Remove using a slotted spoon and keep for later.</li>
+                <li>Add the onions and cook until soft and golden-brown (about 10 mins).</li>
+                <li>Add the garlic, ginger, chilli, the ground spices and remaining spices.  Cook for one minute.</li>
+                <li>Return the lamb to the pan, add the beef stock and bring to a simmer. Cover with a lid and cook over a gentle heat for one hour.</li>
+                <li>Add the dried coconut and the coconut milk and return to a simmer. Cook for another 30 minutes, or until just thickened and the meat is tender. Season to taste with salt and freshly ground black pepper.</li>
+                <li>In a separate pan add the rice and then plenty of boiling water.  Bring to the boil and then simmer for 10 minutes.  Drain the rice and rinse with more boiling water.</li>
+                <li>Spoon the lamb curry onto plates with a pile of rice. Serve with a spoonful of yoghurt and some mango chutney.</li>
+            </section>
+        </div>
+
+    </main>
+
+    <!-- Page Footer -->
+    <footer>
+        <h3>Links to famous tv chefs</h3>
+        <ul>
+            <li><a href="https://www.jamieoliver.com">Jamei Oliver</a></li>
+            <li><a href="https://www.gordonramsay.com">James Martin</a></li>
+            <li><a href="https://www.jamesmartinchef.co.uk">Gordon Ramsey</a></li>
+        </ul>
+    </footer>
+
+    </body>
+</html>
+
+

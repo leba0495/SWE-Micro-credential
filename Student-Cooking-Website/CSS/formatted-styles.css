@@ -1,0 +1,257 @@
+/* The Universal Selector has been used here to cancel the browser default margins and */
+/* padding for every page element.  This ensures that only assigned */
+/* margin and padding values are implemented when viewing pages. */
+* {margin:0;padding:0}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Background Colours */
+body, header {
+    background-color: #fc8621;
+}
+nav, footer {
+    background-color: #c24914;
+}
+main {
+    background-color: #f9e0ae;
+}
+/* Text Properties */
+h1 {
+    display: inline;
+    float:left;
+    color: #682c0e;
+    font-family: 'Merriweather', serif;
+    font-size: 2.5em;
+}
+h2 {
+    color: #682c0e;
+    font-family: 'Merriweather', serif;
+    font-size: 1.8em;
+}
+h3 {
+    color: #1e212d;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+}
+h4 {
+    color: #1e212d;
+    font-family: 'Merriweather', serif;
+    font-size: 1em; 
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin: 20px 10px;
+}
+ul, ol, li {
+    list-style-position: inside;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #f9e0ae;
+}
+.sites-main-links {
+    color: #cc561e;
+}
+/* Margins */
+body {
+    margin: 0 100px 60px 100px;
+}
+h1, h2, p {
+    margin: 20px;
+}
+h3 {
+    margin: 10px;
+}
+main  {
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.thai-ingredients-list {
+    margin-left: 250px;
+}
+.pizza-instructions {
+    margin-left: 180px;;
+}
+/*Padding*/
+main {
+    padding: 40px;
+}
+footer {
+    padding: 40px;
+
+}
+nav {
+    padding: 10px;
+}
+
+#green-curry, #red-curry {
+    padding: 20px;
+}
+
+/* Positioning (Float, Display and Clear) */
+nav {
+    clear:both;
+}
+.home-main-image {
+    float: left;
+    margin: 20px;
+}
+#stir-fry-main {
+    display: inline-block;
+}
+#pizza-main {
+    display: inline-block;
+}
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
+
+.pizza-ingredients {
+    float: left;
+}
+
+/* Image Properties*/
+.countries-flags {
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+.image-banner {
+    float: right;
+    height :90px;
+    width: 550px
+}
+#student-image {
+    height: 160px;
+    width: 250px;
+}
+.thai-ingredients-images {
+    width: 200px;
+    height: 120px;
+}
+.thai-curries-images {
+    float: right;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+}
+.italy-images {
+    width: 150px;
+    height: 150px;
+    margin: 50px 40px 20px 40px;
+}
+.image-stirFry {
+    width: 290px;
+    height: 150px;
+}
+.image-spice {
+    width: 190px;
+    height: 140px;
+    margin: 10px;
+}
+.pizza-image {
+    width: 100px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px; 
+}
+.pasta-images {
+    width: 190px;
+    height: 120px;
+    margin: 10px;
+}
+.indian-curry {
+    width: 300px;
+    height:200px;
+    margin-left: 20px;
+    margin-bottom:20px; 
+    float:right;
+}
+.curry-button {
+    width: 120px;
+    height: 50px;
+    margin-right: 10px;
+}
+.thai-main-images {
+    display: inline;
+    width: 200px;
+    height:150px;
+    margin: 30px 20px;
+}
+.indian-images {
+    width:150px;
+    height:200px
+}
+#wok-image {
+    float: right;
+}
+/* Navigation List Properties */
+nav ul{ 
+    display: inline;
+}
+nav ul, li, a {
+    padding: 0px 10px;
+}
+nav ul li a:hover {
+    background-color: #fc8621;
+    color: #682c0e;
+}
+.list-lines {
+    display: inline;
+}
+/*Isolated elements*/
+form {
+    margin-left: 50px;
+    padding:20px;
+    border: 2px ridge #682c0e;
+    width: max-content;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+}
+option {
+    margin: 5px 10px;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+input {
+    margin-left: 10px;
+}
+.pasta-img-main {
+    position: relative;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.indian-images, .ingredients-img-container {
+    position: relative;
+    float: left;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+.india-text {
+    margin-left: 150px;
+}
+#curry2, #curry3 {
+    display: none;
+}
+
+#chili, #cumin, #cinnamon, #cloves, #fenugreek, #cardamom, #mustardseeds, #nutmeg {
+    display: none;
+}
+.survey-questions {
+    width:max-content;
+    padding-right:50px;
+    clear:both;
+    margin-top:20px;
+}
