@@ -3,7 +3,7 @@ This repo contains work done while taking part of a Software Development Micro-C
 
 
 #Static site
-![Screen Shot 2021-02-27 at 9 00 56 PM (2)](https://user-images.githubusercontent.com/61469904/109405491-0ba20480-793f-11eb-8218-ff48954e3870.png)
+<img width="1440" alt="Screen Shot 2021-02-27 at 9 01 36 PM" src="https://user-images.githubusercontent.com/61469904/109405590-0f825680-7940-11eb-92a2-456903035001.png">
 
 #Dynamic site with HTML, CSS, and basic JavaScript
 <img width="1287" alt="Screen Shot 2021-02-27 at 9 04 27 PM" src="https://user-images.githubusercontent.com/61469904/109405557-af8bb000-793f-11eb-8bb8-738d2c2e0544.png">
